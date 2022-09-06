@@ -1,4 +1,3 @@
-# Doom-Daggers
 <img src="https://i.imgur.com/eb3ehlu.png">
 
 Doom Daggers is a Doom II mod inspired by the game 'Devil Daggers'.
