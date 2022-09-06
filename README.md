@@ -1,5 +1,5 @@
 # Doom-Daggers
-<img src="https://raw.githubusercontent.com/axe-stump/Doom-Daggers/master/sprites/DDGRLOGO.png?token=GHSAT0AAAAAABYLUSMYP2X3XLHMOXXAXAJWYYW4IVQ">
+<img src="https://i.imgur.com/eb3ehlu.png">
 
 Doom Daggers is a Doom II mod inspired by the game 'Devil Daggers'.
 The Idea is to mimic the same intensive gameplay and ruthless difficulty of DD.
