@@ -12,6 +12,7 @@ The Idea is to mimic the same intensive gameplay and ruthless difficulty of DD.
 * Player dies in one hit (1HP).
 * In-game music-loop by Andrey Sitkov.
 
+
 ## Recommended GZDoom & general settings:
 
 * Use WASD & Mouse (Mouselook: Off).
@@ -20,7 +21,9 @@ The Idea is to mimic the same intensive gameplay and ruthless difficulty of DD.
 * Mouse1: Fire ; Mouse2: AltFire
 * Headphones recommended
 
+
 ## How to install:
 
 [Available on ModDB](https://www.moddb.com/mods/doom-daggers)
+
 Download and install [GZDoom](https://github.com/ZDoom/gzdoom), download the mod zip file, extract it and drag the DoomDaggers.wad to the GZDoom.exe (Doom II required).
