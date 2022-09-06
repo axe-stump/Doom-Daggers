@@ -3,9 +3,9 @@
 Doom Daggers is a Doom II mod inspired by the game 'Devil Daggers'.
 The Idea is to mimic the same intensive gameplay and ruthless difficulty of DD.
 
-# Download, install & more info
-[ModDB](https://www.moddb.com/mods/doom-daggers)
-[Itch.io](https://m3ir.itch.io/doom-daggers)
+# Download & install:
+* [ModDB](https://www.moddb.com/mods/doom-daggers)
+* [Itch.io](https://m3ir.itch.io/doom-daggers)
 
 # Build with
 * [GZDoom](https://github.com/m-x-d/GZDoom-Builder)
