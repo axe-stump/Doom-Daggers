@@ -1,0 +1,65 @@
+#include "zcommon.acs"
+
+script 2 (void)
+{	
+	while(true) {
+		ACS_NamedExecute("TimerReset", 0, Timer());
+		// Spawnset - Wave 1
+		Delay(70); // 2
+		Thing_SpawnFacing (Random (17, 24), T_DEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (17, 24), T_DEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_IMP, FALSE, 0);
+		Delay(140); // 6
+		Thing_SpawnFacing (Random (17, 24), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_CACODEMON, FALSE, 0);
+		Delay(280); // 14
+		Thing_SpawnFacing (Random (17, 24), T_DEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (17, 24), T_DEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (17, 24), T_DEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_IMP, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_IMP, FALSE, 0);
+		Delay(350); // 24
+		Thing_SpawnFacing (Random (17, 24), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (17, 24), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_CACODEMON, FALSE, 0);
+		Delay(420); // 36
+		Thing_SpawnFacing (Random(9, 16), T_BARON, FALSE, 0);
+		// Wave 2
+		Delay(140); // 40
+		Thing_SpawnFacing (Random (17, 24), T_DEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_IMP, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_IMP, FALSE, 0);
+		Delay(280); // 48
+		Thing_SpawnFacing (Random (17, 24), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (17, 24), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (17, 24), T_CACODEMON, FALSE, 0);
+		Delay(350); // 58
+		Thing_SpawnFacing (Random (9, 16), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_CACODEMON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_PAINELEMENTAL, FALSE, 0);
+		// Wave 3
+		Delay(280); // 66 (1:06)
+		Thing_SpawnFacing (Random (24, 28), T_REVENANT, FALSE, 0);
+		Delay(350); // 76 (1:16)
+		Thing_SpawnFacing (Random (9, 16), T_REVENANT, FALSE, 0);
+		Thing_SpawnFacing (Random (24, 28), T_REVENANT, FALSE, 0);
+		Delay(420); // 88 (1:28)
+		Thing_SpawnFacing (Random (9, 16), T_ARACHNOTRON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_ARACHNOTRON, FALSE, 0);
+		Thing_SpawnFacing (Random (9, 16), T_ARACHNOTRON, FALSE, 0);
+		
+	}
+}
+
+script "TimerReset" (int startTime)
+{
+	int t;
+	while(true)
+	{
+		t = (Timer() - startTime) / 35;
+		HudMessage(d:t/60, s:":", d:(t%60)/10, d:t%10;
+		HUDMSG_PLAIN, 1, CR_RED, 0.95, 0.95, 2.0);
+		Delay(35);
+	}
+}

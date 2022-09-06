@@ -1,0 +1,3 @@
+daggerpickup DAGGERPU
+dgrshotgun SHOTGUN
+snd_hrtf true

@@ -1,0 +1,17 @@
+GameInfo
+{
+	PlayerClasses = "DaggerGuy"	
+}
+
+clearskills
+
+Skill hard
+{
+  DisableCheats
+  FastMonsters
+  NoInfighting 
+  SpawnFilter = Nightmare
+  Aggressiveness = 1.0
+  Name = "Fast Ultra-Violence"
+  MustConfirm = "Fast Ultra-Violence, 1HP."
+}
